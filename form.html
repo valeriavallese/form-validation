@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form</title>
+</head>
+<body>
+    
+
+  
+  
+ 
+  
+    <div class="container">
+        <div class="header">
+            <h1>Contact us!</h1>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" placeholder="Carla" id="name" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="lastname">Last Name</label>
+                <input type="text" placeholder="Rossi" id="lastname" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="city">City</label>
+                <input type="text" placeholder="Rome" id="city" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="address">Address</label>
+                <input type="text" placeholder="Via Condotti 47" id="address" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="name.surname@gmail.com" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="phone">Phone</label>
+                <input type="tel" placeholder="+39 0000000" id="phone" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input type="password" placeholder="Password" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+                <p>
+                    Your password should contain:
+                </p>
+                  <ul>
+                    <li>at least 8 characters</li>
+                    <li>1 number</li>
+                    <li>1 uppercase</li>
+                    <li>1 lowercase</li>
+                    <li>1 special character</li>
+                  </ul>
+            </div>
+            <p id="error">
+            </p>
+            <button  id="submit" onclick="checkpw()">Submit</button>
+            
+        </div>
+           
+        </form>
+    </div>
+    
+    
+  
+    </div>
+  
+
+
+
+
+
+ 
+  <script src="script.js">
+    
+  </script>
+</body>
+</html>
